@@ -1,0 +1,545 @@
+* {
+  padding-top: 0px;
+  box-sizing: border-box; }
+
+.colorzilla {
+  position: fixed !important;
+  width: 100%;
+  background-color: white;
+  transition: .5s; }
+  .colorzilla .menu i {
+    color: black !important; }
+  .colorzilla .menu ul li {
+    list-style: none;
+    text-decoration: none; }
+    .colorzilla .menu ul li a {
+      color: black !important;
+      font-weight: 600; }
+  .colorzilla .logo {
+    margin: -10px 30px; }
+    .colorzilla .logo h2 {
+      color: black !important; }
+  .colorzilla .callus {
+    margin-top: -10px;
+    margin-left: 80px;
+    border: 1px solid whitesmoke !important;
+    border-radius: 40px;
+    padding: 0px 0px 0px 10px; }
+    .colorzilla .callus a {
+      color: black !important;
+      font-weight: 600; }
+    .colorzilla .callus i {
+      font-weight: 600;
+      color: white !important;
+      background-color: #2775ff;
+      border: 1px solid whitesmoke !important;
+      border-radius: 40px;
+      padding: 15px; }
+  .colorzilla .languageus {
+    margin-top: -10px;
+    position: relative;
+    margin-left: 5px;
+    border: 1px solid whitesmoke !important;
+    border-radius: 40px;
+    padding: 6px 10px 0px 10px; }
+    .colorzilla .languageus a {
+      color: black !important; }
+    .colorzilla .languageus i {
+      padding: 10px 0px; }
+  .colorzilla .languageothers {
+    margin-top: -10px;
+    transition-duration: 4s;
+    display: none;
+    transform: translateY(5px);
+    transform: translateX(116px);
+    position: absolute;
+    margin-left: 5px;
+    border-radius: 40px;
+    padding: 6px 10px 10px 1px;
+    background-color: white; }
+    .colorzilla .languageothers a {
+      padding: 5px;
+      color: grey; }
+    .colorzilla .languageothers i {
+      color: grey;
+      padding: 10px 0px; }
+  .colorzilla .basketsharesearchmoreinfo .basket i {
+    padding: 0px 30px 0px 0px;
+    color: black !important;
+    font-weight: 600; }
+  .colorzilla .basketsharesearchmoreinfo .share i {
+    color: black !important;
+    font-weight: 600;
+    padding: 0px 30px 0px 0px; }
+  .colorzilla .basketsharesearchmoreinfo .search i {
+    color: black !important;
+    font-weight: 600;
+    padding: 0px 25px 0px 0px; }
+  .colorzilla .basketsharesearchmoreinfo .moreinfo i {
+    color: black !important;
+    font-weight: 600;
+    padding: 0px 20px 0px 0px; }
+
+.header {
+  position: absolute;
+  padding: 20px 0px 10px 0px;
+  z-index: 9999;
+  border-bottom: .16px solid whitesmoke; }
+  .header .menu .home-drop .home-dropped li:hover {
+    box-shadow: rgba(52, 152, 219, 0.5);
+    border: 1px solid black;
+    overflow: visible; }
+  .header .menu ul li {
+    list-style: none;
+    text-decoration: none; }
+    .header .menu ul li a {
+      color: white;
+      font-weight: 600; }
+  .header .logo {
+    margin: -10px 30px; }
+  .header .callus {
+    margin-top: -10px;
+    margin-left: 80px;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 0px 0px 0px 10px; }
+    .header .callus a {
+      color: white;
+      font-weight: 600; }
+    .header .callus i {
+      font-weight: 600;
+      color: white;
+      border: 1px solid white;
+      border-radius: 40px;
+      padding: 15px; }
+  .header .languageus {
+    margin-top: -10px;
+    position: relative;
+    margin-left: 5px;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 6px 10px 0px 10px; }
+    .header .languageus i {
+      padding: 10px 0px; }
+  .header .languageothers {
+    margin-top: -10px;
+    transition-duration: 4s;
+    display: none;
+    transform: translateY(5px);
+    transform: translateX(116px);
+    position: absolute;
+    margin-left: 5px;
+    border-radius: 40px;
+    padding: 6px 10px 10px 1px;
+    background-color: white; }
+    .header .languageothers a {
+      padding: 5px;
+      color: grey; }
+    .header .languageothers i {
+      color: grey;
+      padding: 10px 0px; }
+  .header .basketsharesearchmoreinfo .basket i {
+    padding: 0px 30px 0px 0px;
+    color: white;
+    font-weight: 600; }
+  .header .basketsharesearchmoreinfo .share i {
+    color: white;
+    font-weight: 600;
+    padding: 0px 30px 0px 0px; }
+  .header .basketsharesearchmoreinfo .search i {
+    color: white;
+    font-weight: 600;
+    padding: 0px 25px 0px 0px; }
+  .header .basketsharesearchmoreinfo .moreinfo i {
+    color: white;
+    font-weight: 600;
+    padding: 0px 20px 0px 0px; }
+
+.home {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background: linear-gradient(#8e44ad, rgba(52, 152, 219, 0.5)), url(http://wp.berserk.nikadevs.com/wp-content/themes/berserk/assets/images/bg-pattern.jpg);
+  clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 95% 93%, 50% 94%, 13% 100%, 0 100%, 0% 35%, 0 0); }
+  .home .ecophotos {
+    position: relative;
+    padding: 100px 0px;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 170px;
+    background-color: white; }
+    .home .ecophotos .slick-prev::before {
+      content: "<";
+      color: red; }
+    .home .ecophotos .slick-next::before {
+      position: absolute;
+      right: 25px;
+      content: ">";
+      color: red; }
+  .home .home-text {
+    position: absolute;
+    top: 180px;
+    left: 130px; }
+    .home .home-text h1 {
+      font-weight: 300;
+      font-family: 'Montserrat',sans-serif;
+      line-height: 3.25rem;
+      color: white;
+      font-size: 2.875rem; }
+    .home .home-text ul li {
+      color: white;
+      list-style: none; }
+    .home .home-text .dropped {
+      display: block; }
+      .home .home-text .dropped.active {
+        display: none; }
+      .home .home-text .dropped li {
+        width: 100%;
+        background-color: white;
+        color: black; }
+    .home .home-text .size-dropped {
+      display: block; }
+      .home .home-text .size-dropped.active {
+        display: none; }
+      .home .home-text .size-dropped li {
+        width: 100%;
+        background-color: white;
+        color: black; }
+
+.tshirt .polo-shirt.polo-after {
+  animation: poloani 1s;
+  transition: 2s; }
+.tshirt .hugo-shirt.hugo-after {
+  animation: hugoani 1s;
+  transition: 2s; }
+
+@keyframes poloani {
+  from {
+    transform: translateX(-30px);
+    opacity: 0; }
+  to {
+    transform: translateX(0px);
+    opacity: 1; } }
+@keyframes hugoani {
+  from {
+    transform: translateX(30px);
+    opacity: 0; }
+  to {
+    transform: translateX(0px);
+    opacity: 1; } }
+.businesstshirt .bigcircle {
+  animation: bigcircleani 2s infinite; }
+
+@keyframes bigcircleani {
+  from {
+    transform: translateY(1000px); }
+  to {
+    transform: translateY(1100px); } }
+.bigcircletwo {
+  animation: bigcircletwoani 2s infinite; }
+
+@keyframes bigcircletwoani {
+  from {
+    transform: translateY(639px); }
+  to {
+    transform: translateY(689px); } }
+.read-active {
+  display: block !important; }
+
+.buy-active {
+  display: none !important; }
+
+.read .pone {
+  color: #b6b6b6; }
+.read .ptwo {
+  color: #b6b6b6; }
+.read .pthree {
+  color: #b6b6b6; }
+.read .pfour {
+  color: #b6b6b6; }
+.read .pfive {
+  color: #b6b6b6; }
+
+.hot .read {
+  display: inline-block;
+  text-align: center;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  border: 1px solid #0fbcf9;
+  border-radius: 40px;
+  padding: 15px 25px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none; }
+  .hot .read:hover {
+    background: aqua; }
+    .hot .read:hover .before {
+      transform: translateY(-105%); }
+    .hot .read:hover .after {
+      transform: translateY(105%); }
+    .hot .read:hover .text {
+      transform: scale(1); }
+  .hot .read .after,
+  .hot .read .before {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    overflow: hidden;
+    color: #fff;
+    transition: \transform .3s;
+    font-weight: 700;
+    color: #3c40c6;
+    background-color: white; }
+  .hot .read .text {
+    display: inline-block;
+    transform: scale(0.1);
+    color: #fff;
+    transition: \transform .3s, opacity .3s; }
+  .hot .read .after {
+    bottom: 0px;
+    line-height: 0px; }
+  .hot .read .before {
+    padding-top: 14px;
+    top: 1px; }
+
+.related-active span {
+  background-color: #0fbcf9 !important;
+  padding: 10px 20px !important;
+  border: 1px solid #0fbcf9 !important;
+  border-radius: 40px !important; }
+  .related-active span i {
+    color: white !important; }
+  .related-active span span {
+    color: white !important; }
+
+.defaultBtn {
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  white-space: nowrap;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-decoration: none;
+  text-transform: uppercase; }
+  .defaultBtn:hover {
+    background: aqua; }
+    .defaultBtn:hover .before {
+      transform: translateY(-105%); }
+    .defaultBtn:hover .after {
+      transform: translateY(105%); }
+    .defaultBtn:hover .text {
+      opacity: 1;
+      transform: scale(1); }
+  .defaultBtn .after,
+  .defaultBtn .before {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    overflow: hidden;
+    background: aqua;
+    color: #fff;
+    transition: \transform .3s; }
+  .defaultBtn .text {
+    display: inline-block;
+    transform: scale(0.1);
+    will-change: transform;
+    opacity: 0;
+    text-align: center;
+    color: #fff;
+    transition: \transform .3s, opacity .3s; }
+  .defaultBtn .after {
+    bottom: 0;
+    line-height: 0; }
+  .defaultBtn .before {
+    padding-top: 8px;
+    top: 0; }
+
+/************/
+#polo {
+  position: relative;
+  padding: 4em 0; }
+  #polo::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(39, 117, 255, 0.92), rgba(97, 1, 97, 0.92)); }
+  #polo .polo-middle {
+    position: relative;
+    z-index: 20; }
+  #polo .polo-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    perspective: 600px;
+    object-position: center; }
+  #polo .polo-item {
+    transition: \transform .6s;
+    background: #fff;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    perspective: 600px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12); }
+    #polo .polo-item::after, #polo .polo-item::before {
+      content: '';
+      position: absolute;
+      bottom: 40px;
+      width: 30px;
+      border-radius: 5px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+      opacity: 0;
+      z-index: -2;
+      background-color: #fff;
+      pointer-events: none;
+      top: 40px; }
+    #polo .polo-item:hover {
+      perspective: 600px;
+      visibility: hidden;
+      transform: rotateY(-180deg); }
+      #polo .polo-item:hover::after {
+        animation: aniafter .3s forwards;
+        animation-delay: 0.5s; }
+      #polo .polo-item:hover::before {
+        animation: anibefore .3s forwards;
+        animation-delay: 0.5s; }
+      #polo .polo-item:hover .polo-flip {
+        opacity: 1;
+        visibility: visible;
+        transform: rotateY(180deg); }
+    #polo .polo-item .polo-content {
+      text-align: center;
+      padding: 20px;
+      position: relative; }
+    #polo .polo-item .polo-flip {
+      position: absolute;
+      left: 0;
+      transition: \transform .6s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      top: -15px;
+      bottom: -15px;
+      width: 100%;
+      background: #fff;
+      border-radius: 10px;
+      opacity: 0;
+      visibility: hidden; }
+      #polo .polo-item .polo-flip .polo-btn {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 20px;
+        z-index: 10; }
+
+@keyframes anibefore {
+  from {
+    left: 0; }
+  to {
+    left: -15px;
+    opacity: 1; } }
+@keyframes aniafter {
+  from {
+    right: 0; }
+  to {
+    right: -15px;
+    opacity: 1; } }
+.polo-comments-active {
+  display: block !important;
+  transform: translateY(0px) !important; }
+
+.polo-middle-active {
+  display: none !important; }
+
+.urname-active {
+  transition: .4s; }
+  .urname-active span {
+    transition: .4s;
+    top: -30px !important; }
+  .urname-active input {
+    transition: .4s;
+    border-bottom: 1px solid blue !important;
+    border-top: white 1px solid !important; }
+
+.uremail-active {
+  transition: .4s; }
+  .uremail-active span {
+    transition: .4s;
+    top: -30px !important; }
+  .uremail-active input {
+    transition: .4s;
+    border-bottom: 1px solid blue !important;
+    border-top: white 1px solid !important; }
+
+.sometext-active {
+  transition: .4s; }
+  .sometext-active span {
+    transition: .4s;
+    top: 250px !important; }
+  .sometext-active input {
+    transition: .4s;
+    border-bottom: 1px solid blue !important;
+    border-top: white 1px solid !important; }
+
+.yourreply .read {
+  display: inline-block;
+  text-align: center;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  border: 1px solid #0fbcf9;
+  border-radius: 40px;
+  padding: 15px 25px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none; }
+  .yourreply .read:hover {
+    background: aqua; }
+    .yourreply .read:hover .before {
+      transform: translateY(-105%); }
+    .yourreply .read:hover .after {
+      transform: translateY(105%); }
+    .yourreply .read:hover .text {
+      transform: scale(1); }
+  .yourreply .read .after,
+  .yourreply .read .before {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    overflow: hidden;
+    color: #fff;
+    transition: \transform .3s;
+    font-weight: 700;
+    color: #3c40c6;
+    background-color: white; }
+  .yourreply .read .text {
+    display: inline-block;
+    transform: scale(0.1);
+    color: #fff;
+    transition: \transform .3s, opacity .3s; }
+  .yourreply .read .after {
+    bottom: 0px;
+    line-height: 0px; }
+  .yourreply .read .before {
+    padding-top: 14px;
+    top: 1px; }
+
+/*# sourceMappingURL=style.css.map */
